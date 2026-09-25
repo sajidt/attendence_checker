@@ -1,0 +1,10 @@
+{
+  "name": "saturday-school-attendance",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Shared attendance API and web app",
+  "main": "api/server.js",
+  "scripts": { "start": "node api/server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "better-sqlite3": "^11.10.0", "express": "^5.1.0" }
+}
